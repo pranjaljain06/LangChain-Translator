@@ -50,7 +50,7 @@ It supports text input, file uploads (.txt, .pdf), automatic language detection,
 ## 🔑 Environment Variables
 Create a .env file in the project root with your API keys:
 
-GROQ_API_KEY=your_groq_key_here
+GROQ_API_KEY=your_groq_key_here \n
 OPENAI_API_KEY=your_openai_key_here
 LANGCHAIN_API_KEY=your_langsmith_key_here
 LANGCHAIN_PROJECT=LangChain-Translator

@@ -18,6 +18,39 @@ It supports text input, file uploads (.txt, .pdf), automatic language detection,
 ## 📦 Installation
 
 1. **Clone the repository**
-   ```bash
    git clone https://github.com/pranjaljain06/LangChain-Translator.git
    cd LangChain-Translator
+   
+3. **Create a virtual environment**
+   python -m venv venv
+   venv\Scripts\activate   # Windows
+   source venv/bin/activate # macOS/Linux
+   
+5. **Install dependencies**
+   pip install -r requirements.txt
+   
+7. **Environment Variables**
+   Create a **.env** file in the project root with your API keys:
+   GROQ_API_KEY=your_groq_key_here
+   OPENAI_API_KEY=your_openai_key_here
+   LANGCHAIN_API_KEY=your_langsmith_key_here
+   LANGCHAIN_PROJECT=LangChain-Translator
+   
+9. **Running the App**
+   FastAPI server
+      uvicorn serve:app --reload
+       - Runs the API server at http://localhost:8000.
+
+   Streamlit UI
+      streamlit run serve.py
+       - Opens the interactive translation demo in your browser.
+
+
+**Tech Stack**
+FastAPI – backend API
+Streamlit – frontend UI
+LangChain – prompt chaining
+Groq – LLM provider
+PyPDF2 – PDF parsing
+langdetect – language detection
+gTTS – text-to-speech

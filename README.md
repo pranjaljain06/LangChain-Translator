@@ -37,11 +37,11 @@ It supports text input, file uploads (.txt, .pdf), automatic language detection,
    LANGCHAIN_PROJECT=LangChain-Translator
    
 5. **Running the App**
-   FastAPI server
+   FastAPI server -
       uvicorn serve:app --reload
        - Runs the API server at http://localhost:8000.
 
-   Streamlit UI
+   Streamlit UI - 
       streamlit run serve.py
        - Opens the interactive translation demo in your browser.
 

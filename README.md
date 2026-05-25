@@ -44,6 +44,16 @@ It supports text input, file uploads (.txt, .pdf), automatic language detection,
    Streamlit UI - 
       streamlit run serve.py
        - Opens the interactive translation demo in your browser.
+   
+---
+
+## 🔑 Environment Variables
+Create a .env file in the project root with your API keys:
+
+GROQ_API_KEY=your_groq_key_here
+OPENAI_API_KEY=your_openai_key_here
+LANGCHAIN_API_KEY=your_langsmith_key_here
+LANGCHAIN_PROJECT=LangChain-Translator
 
 ---
 

@@ -49,10 +49,10 @@ It supports text input, file uploads (.txt, .pdf), automatic language detection,
 
 ## **Tech Stack**
 
-FastAPI – backend API
-Streamlit – frontend UI
-LangChain – prompt chaining
-Groq – LLM provider
-PyPDF2 – PDF parsing
-langdetect – language detection
-gTTS – text-to-speech
+   FastAPI – backend API
+   Streamlit – frontend UI
+   LangChain – prompt chaining
+   Groq – LLM provider
+   PyPDF2 – PDF parsing
+   langdetect – language detection
+   gTTS – text-to-speech

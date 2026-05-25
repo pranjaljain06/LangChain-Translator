@@ -1,3 +1,10 @@
-langchain
-langchain_Community
+fastapi
+uvicorn
+langchain-core
+langchain-groq
+langserve
+python-dotenv
 streamlit
+PyPDF2
+langdetect
+gTTS
